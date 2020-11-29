@@ -1,3 +1,4 @@
+//variable notes
 const myName = "Colby";
 console.log(myName);
 
@@ -12,3 +13,5 @@ printMyName('Colby', 25);
 
 const multiply = number => number * 2;
 console.log(multiply(2));
+
+//Classes
