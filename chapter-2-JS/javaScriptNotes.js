@@ -55,22 +55,31 @@ console.log(multiply(2));
 // console.log(filter(1, 2, 3));
 
 //Destructuring
-const numbers =[1, 2, 3];
-[num1, ,num3] = numbers;
-console.log(num1, num3);
+// const numbers =[1, 2, 3];
+// [num1, ,num3] = numbers;
+// console.log(num1, num3);
 
-//Reference and Primative types
-//primative
-const number = 1;
-const num2 = number;
-console.log(num2);
+// //Reference and Primative types
+// //primative
+// const number = 1;
+// const num2 = number;
+// console.log(num2);
 
-//reference
-const person = {
-    name: "Colby"
-};
-const secondPerson = {
-    ...person
-}
-person.name = "Linnea";
-console.log(secondPerson);
+// //reference
+// const person = {
+//     name: "Colby"
+// };
+// const secondPerson = {
+//     ...person
+// }
+// person.name = "Linnea";
+// console.log(secondPerson);
+
+
+//refreshing array function
+const numbers = [1, 2, 3];
+const doubleNumArray = numbers.map((num) => {
+    return num * 2;
+});
+console.log(numbers);
+console.log(doubleNumArray);
